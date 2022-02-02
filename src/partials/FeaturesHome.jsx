@@ -2,10 +2,10 @@ import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
 import TopImage from '../images/features-top-image.png';
-import FeaturesBg01 from '../images/features-home-bg-01.png';
-import FeaturesElement01 from '../images/features-home-element-01.png';
-import FeaturesElement02 from '../images/features-home-element-02.png';
-import FeaturesElement03 from '../images/features-home-element-03.png';
+import FeaturesBg01 from '../images/feature-analytics-background.png';
+import FeaturesElement01 from '../images/we-just.png';
+import FeaturesElement02 from '../images/i-did.png';
+import FeaturesElement03 from '../images/i-believe-so.png';
 
 function FeaturesHome() {
 
@@ -36,8 +36,8 @@ function FeaturesHome() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">How Simple works</h1>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h1 className="h2 mb-4">Here's How We Work</h1>
+            <p className="text-xl text-gray-600">At Helms Media we follow a process for every project we do to ensure that we finish on time and deliver a result you'll love.</p>
           </div>
 
           {/* Top image */}
@@ -51,8 +51,9 @@ function FeaturesHome() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Powerful suite of tools</h3>
-                <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                <h3 className="h3 mb-3">We've Heard You!</h3>
+                <p className="text-xl text-gray-600">It's too common for businesses to have negative marketing experiences due to a few things. 90% of the companies 
+                we've spoken to have felt like they weren't involved in the process, their opinion didn't matter, or they didn't see results.</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -61,8 +62,8 @@ function FeaturesHome() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">We Provide the Analytics Everyone Else Doesn't</div>
+                    <div className="text-gray-600">We offer every client a monthly (or weekly) report on their results they're paying us for.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -75,8 +76,8 @@ function FeaturesHome() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Your Opinion is What Matters Here</div>
+                    <div className="text-gray-600">If you have input on the project we're working on for your company you have a say. Not only that, but you have THE say!</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -118,7 +119,7 @@ function FeaturesHome() {
                 >
                   <div className="relative inline-flex flex-col">
                     <img className="md:max-w-none mx-auto rounded" src={FeaturesBg01} width="500" height="375" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement01} width="500" height="147" alt="Element 01" style={{ top: '22%' }} />
+                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement01} width="500" height="75" alt="Element 01" style={{ top: '22%' }} />
                     <img className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src={FeaturesElement02} width="500" height="158" alt="Element 02" style={{ top: '39%' }} />
                     <img className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={FeaturesElement03} width="500" height="167" alt="Element 03" style={{ top: '77%' }} />
                   </div>
