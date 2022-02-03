@@ -2,10 +2,18 @@ import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
 import TopImage from '../images/features-top-image.png';
-import FeaturesBg01 from '../images/feature-analytics-background.png';
-import FeaturesElement01 from '../images/we-just.png';
+import FeaturesBg01 from '../images/analytics-image.png';
+import FeaturesBg02 from '../images/feedback-image.png';
+import FeaturesBg03 from '../images/feature-website-hero.png';
+import FeaturesElement01 from '../images/yes.png';
 import FeaturesElement02 from '../images/i-did.png';
-import FeaturesElement03 from '../images/i-believe-so.png';
+import FeaturesElement03 from '../images/we-just.png';
+import FeaturesElement04 from '../images/change-please.png';
+import FeaturesElement05 from '../images/absolutely.png';
+import FeaturesElement06 from '../images/i-trust.png';
+import FeaturesElement07 from '../images/hello.png';
+import FeaturesElement08 from '../images/id-like.png';
+import FeaturesElement09 from '../images/we-can.png';
 
 function FeaturesHome() {
 
@@ -62,8 +70,8 @@ function FeaturesHome() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">We Provide the Analytics Everyone Else Doesn't</div>
-                    <div className="text-gray-600">We offer every client a monthly (or weekly) report on their results they're paying us for.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Your Opinion Matters Here</div>
+                    <div className="text-gray-600">If you have input on the project we're working on for your company you have a say.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -76,8 +84,8 @@ function FeaturesHome() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Your Opinion is What Matters Here</div>
-                    <div className="text-gray-600">If you have input on the project we're working on for your company you have a say. Not only that, but you have THE say!</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">We Provide the Analytics Others Don't</div>
+                    <div className="text-gray-600">We offer every client a monthly (or weekly) report on their results they're paying us for.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -90,8 +98,8 @@ function FeaturesHome() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">You'll Always be Involved</div>
+                    <div className="text-gray-600">We will make sure you understand the processes and are involded in key decisions to the depth you want.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -118,10 +126,10 @@ function FeaturesHome() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg01} width="500" height="375" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement01} width="500" height="75" alt="Element 01" style={{ top: '22%' }} />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src={FeaturesElement02} width="500" height="158" alt="Element 02" style={{ top: '39%' }} />
-                    <img className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={FeaturesElement03} width="500" height="167" alt="Element 03" style={{ top: '77%' }} />
+                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg02} width="650" height="475" alt="Features bg" />
+                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement04} width="500" height="147" alt="Element 01" style={{ top: '22%' }} />
+                    <img className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src={FeaturesElement05} width="500" height="158" alt="Element 02" style={{ top: '39%' }} />
+                    <img className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={FeaturesElement06} width="500" height="167" alt="Element 03" style={{ top: '77%' }} />
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -137,10 +145,10 @@ function FeaturesHome() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg01} width="500" height="375" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={FeaturesElement03} width="500" height="167" alt="Element 03" style={{ top: '18%' }} />
+                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg01} width="650" height="475" alt="Features bg" />
+                    <img className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={FeaturesElement01} width="500" height="167" alt="Element 03" style={{ top: '18%' }} />
                     <img className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src={FeaturesElement02} width="500" height="158" alt="Element 02" style={{ top: '40%' }} />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement01} width="500" height="147" alt="Element 01" style={{ top: '79%' }} />
+                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement03} width="500" height="147" alt="Element 01" style={{ top: '79%' }} />
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -156,10 +164,10 @@ function FeaturesHome() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg01} width="500" height="375" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement01} width="500" height="147" alt="Element 01" style={{ top: '22%' }} />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src={FeaturesElement02} width="500" height="158" alt="Element 02" style={{ top: '39%' }} />
-                    <img className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={FeaturesElement03} width="500" height="167" alt="Element 03" style={{ top: '77%' }} />
+                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg03} width="650" height="475" alt="Features bg" />
+                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement07} width="500" height="147" alt="Element 01" style={{ top: '22%' }} />
+                    <img className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src={FeaturesElement08} width="500" height="158" alt="Element 02" style={{ top: '39%' }} />
+                    <img className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={FeaturesElement09} width="500" height="167" alt="Element 03" style={{ top: '77%' }} />
                   </div>
                 </Transition>
               </div>
