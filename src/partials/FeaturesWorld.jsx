@@ -1,8 +1,8 @@
 import React from 'react';
 
 import PlanetImage from '../images/planet.png';
-import PlanetAvatar01 from '../images/planet-avatar-01.png';
-import PlanetAvatar02 from '../images/planet-avatar-02.png';
+import PlanetAvatar01 from '../images/design-bombs.png';
+import PlanetAvatar02 from '../images/font-awesome.png';
 
 function FeaturesWorld() {
   return (
@@ -12,8 +12,8 @@ function FeaturesWorld() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Simple can help you scale internationally</h1>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h1 className="h2 mb-4"><span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">Helms Media</span> can help you scale internationally</h1>
+            <p className="text-xl text-gray-600">Trying to reach an audience outside the US or own a business outside the US? We can help you grow your business internationally!</p>
           </div>
 
           {/* World illustration */}
