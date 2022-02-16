@@ -15,8 +15,8 @@ function BlogList() {
 
           {/* Page header */}
           <div className="max-w-3xl pb-12 md:pb-20 text-center md:text-left">
-            <h1 className="h1 mb-4">Type the way you talk</h1>
-            <p className="text-xl text-gray-600">Stay up to date on the latest from Simple and best news from the Dev world.</p>
+            <h1 className="h1 mb-4">Learn More Every Day.</h1>
+            <p className="text-xl text-gray-600">When you stop learning you start falling behind. Learn daily with our blog articles that will help you market yourself as a freelancer, entrepreneur, and small business owner.</p>
           </div>
 
           {/* Main content */}
