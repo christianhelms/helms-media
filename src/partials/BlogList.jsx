@@ -1,11 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import NewsAuthor01 from '../images/news-author-01.jpg';
-import NewsAuthor02 from '../images/news-author-02.jpg';
-import NewsAuthor03 from '../images/news-author-03.jpg';
 import NewsAuthor04 from '../images/news-author-04.jpg';
-import NewsAuthor06 from '../images/news-author-06.jpg';
+
+import { PostCard, Categories, PostWidget } from '../components';
 
 const post = [
   {title: 'React Test', excerpt: 'learn react development here'},
