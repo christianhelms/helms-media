@@ -25,7 +25,7 @@ function BlogList() {
 
             {/* Articles container */}
             <div className="md:grow -mt-4">
-              <PostCard />
+            {post.map((post, index) => (<PostCard post={post} key={index}/>))}
              </div>
 
             {/* Sidebar */}
@@ -33,7 +33,7 @@ function BlogList() {
 
               {/* Popular posts */}
               <div className="mb-8">
-                <PostWidget />
+                <PostWidget/>
               </div>
 
               {/* Topics */}
