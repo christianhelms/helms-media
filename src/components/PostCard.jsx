@@ -10,7 +10,7 @@ const PostCard = ({ post }) => {
                 <div>
                   <header>
                     <h2 className="h4 mb-2">
-                      <Link to="/blog-post" className="hover:underline">Create and Deploy a blog with Simple</Link>
+                      <Link to="/blog-post" className="hover:underline">{post.title}</Link>
                     </h2>
                   </header>
                   <div className="text-lg text-gray-600 mb-4">
