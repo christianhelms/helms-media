@@ -5,7 +5,7 @@ import Header from '../partials/Header';
 
 import Footer from '../partials/Footer';
 
-function Support() {
+function Contact() {
 
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
@@ -90,4 +90,4 @@ function Support() {
   );
 }
 
-export default Support;
+export default Contact;

@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Transition from '../utils/Transition';
-import Dropdown from '../utils/Dropdown';
 import Logo from '../images/helms-media-logo.svg';
 
 function Header() {
@@ -61,36 +60,26 @@ function Header() {
             {/* Desktop menu links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link to="/pricing" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Pricing</Link>
+                <Link to="/" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Home</Link>
               </li>
               <li>
                 <Link to="/about" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">About us</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/tutorials" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
                   Tutorials
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/blog" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Blog</Link>
               </li>              
-              {/* 1st level: hover */}
-              <Dropdown title="Resources">
-                {/* 2nd level: hover */}
-                <li>
-                  <Link to="/documentation" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Documentation</Link>
+              <li>
+                  <Link to="/contact" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Contact Us</Link>
                 </li>
-                <li>
-                  <Link to="/support" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Support center</Link>
-                </li>
-                <li>
-                  <Link to="/404" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">404</Link>
-                </li>
-              </Dropdown>
             </ul>
 
             {/* Desktop sign in links */}
-            <ul className="flex grow justify-end flex-wrap items-center">
+            {/* <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link to="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Sign in</Link>
               </li>
@@ -102,7 +91,7 @@ function Header() {
                   </svg>                  
                 </Link>
               </li>
-            </ul>
+            </ul> */}
 
           </nav>
 
