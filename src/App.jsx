@@ -17,7 +17,7 @@ import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import About from './pages/About';
 import Documentation from './pages/Documentation';
-import Help from './pages/Support';
+import Contact from './pages/Contact';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
@@ -56,7 +56,7 @@ function App() {
         <Route path="/blog-post" element={<BlogPost />} />
         <Route path="/about" element={<About />} />
         <Route path="/documentation" element={<Documentation />} />
-        <Route path="/support" element={<Help />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/reset-password" element={<ResetPassword />} />
