@@ -22,6 +22,8 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
 import PageNotFound from './pages/PageNotFound';
+import Terms from './pages/Terms';
+import Privacy from './pages/Privacy'
 
 function App() {
 
@@ -59,6 +61,8 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="*" element={<PageNotFound />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/privacy" element={<Privacy />} />
       </Routes>
     </>
   );

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Header from '../partials/Header';
 
@@ -71,7 +72,8 @@ function Support() {
                   </div>
                 </div>
                 <div className="text-sm text-gray-600 mt-4">
-                  By clicking "send" you consent to allow Simple to store and process the personal information submitted above and agree to our <a className="underline" href="./Terms">terms and conditions</a> as well as our <a className="underline" href="#0">Privacy Policy</a>.
+                  By clicking "send" you consent to allow Simple to store and process the personal information submitted above and agree to our 
+                  <Link to="/terms" className='underline'> terms and conditions</Link> as well as our <Link to="/privacy" className='underline'>Privacy Policy</Link>.
                 </div>
               </form>
 
