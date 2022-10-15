@@ -1,14 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+import { getPosts } from '../../services';
 
 import { PostCard, Categories, PostWidget } from '../components';
 
-const post = [
-  {title: 'React Test', excerpt: 'learn react development here'},
-  {title: 'Web Development', excerpt: 'Web dev makes the world go around'}
-];
-
-function BlogList() {
+export default function BlogList({ posts }) {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -25,7 +21,7 @@ function BlogList() {
 
             {/* Articles container */}
             <div className="md:grow -mt-4">
-              <PostCard />
+            {posts.map((post) => (<PostCard key={post.node.slug} post={post.node}/>))}
              </div>
 
             {/* Sidebar */}
@@ -33,7 +29,7 @@ function BlogList() {
 
               {/* Popular posts */}
               <div className="mb-8">
-                <PostWidget />
+                <PostWidget/>
               </div>
 
               {/* Topics */}
@@ -48,4 +44,9 @@ function BlogList() {
   );
 }
 
-export default BlogList;
+export async function getStaticProps() {
+  const posts = (await getPosts()) || [];
+  return {
+    props: { posts }
+  };
+}
