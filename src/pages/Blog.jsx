@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../partials/Header';
 import BlogList from '../partials/BlogList';
 import Footer from '../partials/Footer';
+import { PostCard } from '../components';
 
 function Blog() {
   return (
@@ -13,6 +14,8 @@ function Blog() {
 
       {/*  Page content */}
       <main className="grow">
+
+        <PostCard />
 
         {/*  Page sections */}
         <BlogList />
