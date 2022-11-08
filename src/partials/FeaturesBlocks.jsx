@@ -1,9 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faLaptopCode, faSearch, faHashtag, faVideo, faPencilAlt, faUserTie } from '@fortawesome/free-solid-svg-icons'
+import { faLaptopCode, faSearch, faHashtag, faVideo, faPencilAlt, faMobile } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faLaptopCode, faSearch, faHashtag, faVideo, faPencilAlt, faUserTie)
+library.add(faLaptopCode, faSearch, faHashtag, faVideo, faPencilAlt, faMobile)
 
 function FeaturesBlocks() {
   return (
@@ -90,11 +90,11 @@ function FeaturesBlocks() {
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
-                  <FontAwesomeIcon icon="user-tie" color="white" transform="shrink-5" />
+                  <FontAwesomeIcon icon="mobile" color="white" transform="shrink-5" />
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Reputation Management</h4>
-              <p className="text-gray-600 text-center">Reviews matter. Let us help you get tons of positive ones and no negative ones!</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">SMS & Email Marketing</h4>
+              <p className="text-gray-600 text-center">Both great ways to get in front of your clients.</p>
             </div>
 
           </div>

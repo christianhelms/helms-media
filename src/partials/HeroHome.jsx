@@ -36,7 +36,7 @@ function HeroHome() {
           <div className="text-center pb-12 md:pb-16">
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">We Are <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">Helms Media</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">A digital marketing agency that <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"><b>actually</b></span> provides reliable returns on your investments and provides business growth.</p>
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">A digital marketing agency that <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"><b>actually</b></span> provides a return on your investments, business growth, and branding.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="/contact">Free Quote</a>

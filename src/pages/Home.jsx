@@ -24,7 +24,7 @@ function Home() {
         <FeaturesHome />
         <FeaturesBlocks />
         <FeaturesWorld />
-        <News />
+        {/* <News /> */}
         <Cta />
 
       </main>
