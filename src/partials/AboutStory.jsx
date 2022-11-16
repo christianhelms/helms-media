@@ -3,7 +3,7 @@ import React from 'react';
 import AboutImage from '../images/about-02.jpg';
 import AboutLogo from '../images/about-logo.png';
 
-function AboutStory() {
+function  AboutStory() {
   return (
     <section>
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
@@ -12,10 +12,14 @@ function AboutStory() {
           <div className="max-w-3xl mx-auto">
             <h3 className="h3 mb-3">Our story</h3>
             <p className="text-lg text-gray-600 mb-8">
-              Aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat auctor urna nunc id cursus metus aliquam eleifend, arcu dictum varius duis at consectetur lorem donec massa sapien, sed risus ultricies tristique nulla aliquet. Morbi tristique senectus et netus et, nibh nisl condimentum id venenatis a condimentum vitae sapien.
+              Helms Media started in 2018 in Joplin, Missouri. Christian Helms, the founder of Helms Media, was looking for 
+              change after working for five years as a software engineer. He didn't like how marketing companies around the Joplin
+              area were operating and felt he could make a more positive impact with a greater ROI (return on investment).
             </p>
             <p className="text-lg text-gray-600 mb-8">
-              Quam pellentesque nec nam aliquam sem et tortor consequat, pellentesque adipiscing commodo elit at imperdiet. Semper auctor neque vitae tempus quam pellentesque nec. Amet dictum sit amet justo donec enim diam varius sit amet mattis vulputate enim nulla aliquet porttitor.
+              The goal of Helms Media is to provide digital marketing services to Joplin and the surrounding areas without 
+              breaking the bank. We also pride ourselves on bringing the client in on decisions, providing detailed reports,
+              and beint transparent.
             </p>
           </div>
 
@@ -24,9 +28,11 @@ function AboutStory() {
               <img className="grow self-start rounded" src={AboutImage} width="435" height="326" alt="About us 02" />
             </figure>
             <div className="sm:ml-8 lg:ml-16">
-              <h4 className="h4 mb-2">2017 - 2020</h4>
+              <h4 className="h4 mb-2">2020 - 2022</h4>
               <p className="text-lg text-gray-600 mb-8">
-                Quam pellentesque nec nam aliquam sem et tortor consequat, pellentesque adipiscing commodo elit at imperdiet. Semper auctor neque vitae tempus quam pellentesque nec. Amet dictum sit amet justo donec enim diam varius sit amet mattis vulputate enim nulla aliquet porttitor.
+                After the first two years Helms Media began picking up more clients and growing. 2020 was the first year 
+                Christian operated Helms Media as his full-time job. Putting a focus more on website development and social
+                media management, Helms Media was specialized in a couple specific fields.
               </p>
               <div className="flex  mb-8">
                 <img className="rounded-full self-start shrink-0 shadow-lg mr-4" src={AboutLogo} width="40" height="40" alt="Logo" />
