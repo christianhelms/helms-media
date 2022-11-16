@@ -10,9 +10,9 @@ function AboutIntro() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4">We enable developers to build amazing things</h1>
+            <h1 className="h1 mb-4">We enable businesses to generate leads and increase their bottom line.</h1>
             <p className="text-xl text-gray-600">
-              We have transformed product development, making it faster, simpler... better! That's why in just three years we now help more developers build projects than anyone else.
+              We have spent time learning what companies want and need. Achieve the goals you've been looking for and be involved in your marketing plan from day one.
             </p>
           </div>
 
