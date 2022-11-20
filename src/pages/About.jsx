@@ -25,8 +25,8 @@ function About() {
         <AboutStory />
         <Stats />
         <Team />
-        <Career />
-        <Process />
+        {/* <Career /> */}
+        {/* <Process /> */}
         <CtaAlternative />
 
       </main>

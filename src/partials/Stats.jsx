@@ -1,9 +1,9 @@
 import React from 'react';
 
 import PlanetImage from '../images/planet.png';
-import PlanetAvatar03 from '../images/planet-avatar-03.png';
-import PlanetAvatar04 from '../images/planet-avatar-04.png';
-import PlanetAvatar05 from '../images/planet-avatar-05.png';
+import RackNerd from '../images/rack-nerd.png'
+import NuckingFerd from '../images/smm-for-nucking-ferd.png'
+import AMISite from '../images/ami-site.png'
 
 function Stats() {
   return (
@@ -13,8 +13,9 @@ function Stats() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Developing a global mindset</h1>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h1 className="h2 mb-4">Developing World Class Marketing Solutions</h1>
+            <p className="text-xl text-gray-600">Marketing isn't black and white so our approach shouldn't be either.
+            We work with companies around the world and our marketing strategies are put to work all over the world.</p>
           </div>
 
           {/* World illustration */}
@@ -87,9 +88,9 @@ function Stats() {
                 </g>
               </svg>
               {/* Avatars */}
-              <img className="absolute max-w-full transform animate-float" src={PlanetAvatar03} width="287" height="86" alt="Planet avatar 03" style={{ width: '71.75%', top: '-4%', left: '-23.5%' }} />
-              <img className="absolute max-w-full transform animate-float animation-delay-1000" src={PlanetAvatar04} width="256" height="126" alt="Planet avatar 04" style={{ width: '64%', bottom: '2%', right: '-18%' }} />
-              <img className="absolute max-w-full transform animate-float animation-delay-1000" src={PlanetAvatar05} width="296" height="78" alt="Planet avatar 05" style={{ width: '74%', top: '-5%', right: '-22%' }} />
+              <img className="absolute max-w-full transform animate-float" src={NuckingFerd} width="287" height="86" alt="Planet avatar 03" style={{ width: '71.75%', top: '-4%', left: '-23.5%' }} />
+              <img className="absolute max-w-full transform animate-float animation-delay-1000" src={RackNerd} width="256" height="126" alt="Planet avatar 04" style={{ width: '64%', bottom: '2%', right: '-18%' }} />
+              <img className="absolute max-w-full transform animate-float animation-delay-1000" src={AMISite} width="296" height="78" alt="Planet avatar 05" style={{ width: '74%', top: '-5%', right: '-22%' }} />
               {/* White box */}
               <svg className="absolute w-32 h-auto rounded-full shadow-xl" viewBox="0 0 128 48" style={{ width: '32%', top: '35%', left: '-25%' }} xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-white" width="128" height="48" rx="24" />
@@ -123,38 +124,38 @@ function Stats() {
 
             {/* 1st item */}
             <div className="text-center">
-              <div className="h3 mb-1">2012</div>
-              <div className="text-gray-600">Lorem ipsum is placeholder text commonly used tristique senectus et netus.</div>
+              <div className="h3 mb-1">2018</div>
+              <div className="text-gray-600">is when Helms Media was founded with a focus on web development and content creation.</div>
             </div>
 
             {/* 2nd item */}
             <div className="text-center">
-              <div className="h3 mb-1">$20M</div>
-              <div className="text-gray-600">Lorem ipsum is placeholder text commonly used tristique senectus et netus.</div>
+              <div className="h3 mb-1">120+</div>
+              <div className="text-gray-600">projects completed on time for our clients and customers.</div>
             </div>
 
             {/* 3rd item */}
             <div className="text-center">
-              <div className="h3 mb-1">250M+</div>
-              <div className="text-gray-600">Lorem ipsum is placeholder text commonly used tristique senectus et netus.</div>
+              <div className="h3 mb-1">20M+</div>
+              <div className="text-gray-600">views on our commercials, tutorials, and other video content.</div>
             </div>
 
             {/* 4th item */}
             <div className="text-center">
-              <div className="h3 mb-1">2700+</div>
-              <div className="text-gray-600">Lorem ipsum is placeholder text commonly used tristique senectus et netus.</div>
+              <div className="h3 mb-1">900+</div>
+              <div className="text-gray-600">meetings with leads and existing clients.</div>
             </div>
 
             {/* 5th item */}
             <div className="text-center">
-              <div className="h3 mb-1">400K</div>
-              <div className="text-gray-600">Lorem ipsum is placeholder text commonly used tristique senectus et netus.</div>
+              <div className="h3 mb-1">1,256</div>
+              <div className="text-gray-600">videos created by Helms Media for clients and on our social media.</div>
             </div>
 
             {/* 6th item */}
             <div className="text-center">
               <div className="h3 mb-1">Millions</div>
-              <div className="text-gray-600">Lorem ipsum is placeholder text commonly used tristique senectus et netus.</div>
+              <div className="text-gray-600">of people impacted by Helms Media since 2018.</div>
             </div>
 
           </div>

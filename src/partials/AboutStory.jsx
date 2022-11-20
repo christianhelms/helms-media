@@ -1,7 +1,8 @@
 import React from 'react';
+import Link from 'next/link';
 
 import AboutImage from '../images/about-02.jpg';
-import AboutLogo from '../images/about-logo.png';
+import AboutLogo from '../images/fa-logo.png';
 
 function  AboutStory() {
   return (
@@ -38,10 +39,12 @@ function  AboutStory() {
                 <img className="rounded-full self-start shrink-0 shadow-lg mr-4" src={AboutLogo} width="40" height="40" alt="Logo" />
                 <div>
                   <blockquote className="text-gray-600 italic">
-                    “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
+                    “ Helms Media does our content creation and some social media management. 
+                    They mostly do our screencasts and video work for the company. 
+                    They've done a great job and we look forward to working together. “
                   </blockquote>
-                  <div className="text-sm font-medium text-gray-600 mt-2">
-                    <cite className="text-gray-900 not-italic">Micheal Osman</cite> · <a className="text-blue-600" href="#0">New York Times</a>
+                  <div className="text-sm font-medium text-blue-600 mt-2">
+                    <cite className="text-gray-900 not-italic">Travis Chase</cite> · <Link className="text-blue-600 " href="https://fontawesome.com/">Font Awesome</Link>
                   </div>
                 </div>
               </div>
@@ -50,7 +53,9 @@ function  AboutStory() {
 
           <div className="max-w-3xl mx-auto">
             <p className="text-lg text-gray-600">
-              Aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat auctor urna nunc id cursus metus aliquam eleifend, arcu dictum varius duis at consectetur lorem donec massa sapien, sed risus ultricies tristique nulla aliquet. Morbi tristique senectus et netus et, nibh nisl condimentum id venenatis a condimentum vitae sapien.
+              Helms Media has made a commitment to provide Joplin, Missouri and Bentonville, Arkansas with the best digital marketing
+              services available. With their home office in Joplin and a secondary office in Bentonville at the beginning of 
+              2023. If you're ready to see an ROI in your marketing then it's time to give Helms Media a try.
             </p>
           </div>
 

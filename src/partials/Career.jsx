@@ -4,6 +4,7 @@ import TeamImage01 from '../images/team-mosaic-01.jpg';
 import TeamImage02 from '../images/team-mosaic-02.jpg';
 import TeamImage03 from '../images/team-mosaic-03.jpg';
 import TeamImage04 from '../images/team-mosaic-04.jpg';
+import Logo from '../images/helms-media-logo.png'
 
 function Career() {
   return (
@@ -36,14 +37,8 @@ function Career() {
                   <img className="shadow-2xl" src={TeamImage04} width="180" height="180" alt="Team mosaic 04" />
                 </figure>
                 <svg className="relative mx-auto h-auto rounded-full shadow-2xl" style={{ width: '10.4%' }} viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <radialGradient cx="21.152%" cy="86.063%" fx="21.152%" fy="86.063%" r="79.941%" id="header-logo">
-                      <stop stopColor="#4FD1C5" offset="0%" />
-                      <stop stopColor="#81E6D9" offset="25.871%" />
-                      <stop stopColor="#338CF5" offset="100%" />
-                    </radialGradient>
-                  </defs>
-                  <rect width="32" height="32" rx="16" fill="url(#header-logo)" fillRule="nonzero" />
+                  <img src={Logo}/>
+                  {/* <rect width="32" height="32" rx="16" fill="url(#header-logo)" fillRule="nonzero" /> */}
                 </svg>
               </div>
             </div>
