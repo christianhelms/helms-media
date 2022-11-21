@@ -10,6 +10,7 @@ import TeamMember07 from '../images/team-member-07.jpg';
 import TeamMember08 from '../images/team-member-08.jpg';
 import TeamMember09 from '../images/team-member-09.jpg';
 import ChristianHelms from '../images/christian-helms.png'
+import Kade from '../images/kade-headshot-edited.png'
 
 function Team() {
   return (
@@ -38,15 +39,17 @@ function Team() {
               </div>
             </div>
 
-            {/* 2nd member
+             {/* 2nd member */}
             <div className="sm:w-1/2 md:w-1/3 py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="150" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
-                <img className="rounded-full mb-4" src={TeamMember02} width="120" height="120" alt="Team member 02" />
-                <h4 className="text-xl font-bold mb-1">Jessie Pietrasiak</h4>
-                <div className="text-blue-600 font-medium mb-2">CTO & Co-founder</div>
-                <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
+                <img className="rounded-full mb-4" src={Kade} width="120" height="120" alt="Team member 02" />
+                <h4 className="text-xl font-bold mb-1">Kade Lundien</h4>
+                <div className="text-blue-600 font-medium mb-2">Graphic Designer & Editor</div>
+                <p className="text-gray-600 text-center mb-3">If you need a graphic created or a video edited this is the guy! Kade joined the team as a contractor in 2021</p>
                 <div className="text-sm text-gray-600 font-medium">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
+                  {/* <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · */}
+                   {/* <a className="text-gray-900 hover:underline" href="#0">GitHub</a> ·  */}
+                   <a className="text-gray-900 hover:underline" href="https://www.linkedin.com/in/gregory-kade-lundien/">LinkedIn</a>
                 </div>
               </div>
             </div>
